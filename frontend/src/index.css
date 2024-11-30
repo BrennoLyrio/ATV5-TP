@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.footer {
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.nav-link {
+  font-size: 20px !important;
+}
+
+.navbar-brand {
+  font-size: 25px !important;
+}
+
+.accordion-header .dropdown {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.accordion-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.accordion-button {
+  flex-grow: 1; /* Para o botão principal ocupar mais espaço */
+  text-align: left;
+}
+
+.dropdown button {
+  font-size: 0.9rem;
+  padding: 0.6rem 0.8rem;
+  border-radius: 4px;
+  /* background-color: #6c757d;  */
+  /* color: white; */
+  border: none;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.dropdown button:hover {
+  background-color: #b9b9b9;
+} 
+
+/* Estilo adicional para CPF e RG com data de emissão */
+.input-group-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 8px; /* Espaço entre os campos */
+}
+
+.input-group-column label {
+  font-size: 14px;
+  margin-bottom: 4px;
+  font-weight: bold;
+}
+
+.align-items-center .form-control {
+  flex: 1; /* Mantém os campos com tamanhos iguais */
+  width: auto; /* Restringe largura extra */
+}
+
+.me-2 {
+  margin-right: 0.5rem; /* Espaço entre os campos */
+}
+.field-title {
+  /* font-size: 14px; */
+  font-weight: bold;
+  margin-bottom: 5px;
+}
